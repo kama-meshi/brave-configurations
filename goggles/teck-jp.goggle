@@ -45,10 +45,10 @@ $boost=3,site=learn.microsoft.com
 
 ! Others
 $boost=1,site=github.io
-/blog.$boost=1,site=*.jp
-/blog/$boost=1,site=*.jp
-/entry/$boost=1,site=*.jp
-/engineering.$boost=2,site=*.jp
+*.jp/*/blog.$boost=1
+*.jp/*/blog/$boost=1
+*.jp/*/entry/$boost=1
+*.jp/*/engineering.$boost=2
 ! ----------
 
 ! I'm not prefer the following...
