@@ -1,0 +1,53 @@
+! name: Teck in Japan
+! description: Boost tech pages 
+! public: false
+! author: kama-meshi
+! avatar: #8acade
+
+! ----------
+! Boost the following.
+! Dev community
+$boost=3,site=zen.dev
+$boost=2,site=dev.to
+$boost=1,site=qiita.com
+
+! Teck news
+$boost=1,site=www.gizmodo.jp
+/blog^$boost=1,site=www.publickey1.jp
+/news^$boost=1,site=gigazine.net
+/news^$boost=1,site=www.itmedia.co.jp
+/article^$boost=1,site=japan.cnet.com
+
+! Teck blogs
+/articles^$boost=3,site=dev.classmethod.jp
+/entry^$boost=2,site=techlife.cookpad.com
+/blog^$boost=2,site=engineering.mercari.com
+/entry^$boost=2,site=techblog.yahoo.co.jp
+/blog^$boost=2,site=engineering.dena.com
+/articles^$boost=2,site=inside.dmm.com
+$boost=2,site=knowledge.sakura.ad.jp
+/entry^$boost=2,site=tech.layerx.co.jp
+$boost=2,site=www.tohoho-web.com
+/blog^$boost=1,site=kristoff.it
+$boost=2,site=stackoverflow.com
+
+! References
+$boost=3,site=www.python.jp
+$boost=3,site=www.python.org
+$boost=3,site=go.dev
+$boost=3,site=ziglang.org
+$boost=3,site=www.typescriptlang.org
+$boost=2,site=docs.oracle.com
+$boost=1,site=docs.aws.amazon.com
+/docs^$boost=3,site=cloud.google.com
+$boost=3,site=learn.microsoft.com
+
+! Others
+$boost=1,site=github.io
+/blog.$boost=1
+/blog/$boost=1
+/engineering.$boost=2
+! ----------
+
+! I'm not prefer the following...
+$downrank=3,site=www.sejuku.net
