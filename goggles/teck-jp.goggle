@@ -45,14 +45,15 @@ $boost=1,site=learn.microsoft.com
 
 ! Others
 $boost=2,site=github.io
-|https://*.jp/*$boost=1
-|https://*.jp/*/blog.$boost=2
-|https://*.jp/*/blog/$boost=2
-|https://*.jp/*/article.$boost=2
-|https://*.jp/*/entry/$boost=2
+|https://*.jp/*/teck/$boost=3
 |https://*.jp/*/engineering.$boost=3
 |https://*.jp/*/engineering/$boost=3
-|https://*.jp/*/teck/$boost=3
+|https://*.jp/*/blog/$boost=2
+|https://*.jp/*/blog.$boost=2
+|https://*.jp/*/article.$boost=2
+|https://*.jp/*/article/$boost=2
+|https://*.jp/*/entry/$boost=2
+|https://*.jp/*$boost=1
 ! ----------
 
 ! I'm not prefer the following...
@@ -61,3 +62,6 @@ $boost=2,site=github.io
 /en-uk/$downrank=1
 /en-gb/$downrank=1
 $downrank=3,site=www.sejuku.net
+$downrank=3,site=detail.chiebukuro.yahoo.co.jp
+$downrank=3,site=oshiete.goo.ne.jp
+
