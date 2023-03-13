@@ -45,14 +45,14 @@ $boost=1,site=learn.microsoft.com
 
 ! Others
 $boost=2,site=github.io
-|https://*.jp/*/teck/$boost=3
-|https://*.jp/*/engineering.$boost=3
-|https://*.jp/*/engineering/$boost=3
-|https://*.jp/*/blog/$boost=2
-|https://*.jp/*/blog.$boost=2
-|https://*.jp/*/article.$boost=2
-|https://*.jp/*/article/$boost=2
-|https://*.jp/*/entry/$boost=2
+|https://*.jp/teck/$boost=3
+|https://*.jp/engineering.$boost=3
+|https://*.jp/engineering/$boost=3
+|https://*.jp/blog/$boost=2
+|https://*.jp/blog.$boost=2
+|https://*.jp/article.$boost=2
+|https://*.jp/article/$boost=2
+|https://*.jp/entry/$boost=2
 |https://*.jp/*$boost=1
 ! ----------
 
