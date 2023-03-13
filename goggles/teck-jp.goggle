@@ -13,24 +13,24 @@ $boost=2,site=qiita.com
 
 ! Teck news
 $boost=2,site=www.gizmodo.jp
-/blog^$boost=2,site=www.publickey1.jp
-/news^$boost=2,site=gigazine.net
-/news^$boost=2,site=www.itmedia.co.jp
-/article^$boost=2,site=japan.cnet.com
+$boost=2,site=www.publickey1.jp
+$boost=2,site=gigazine.net
+$boost=2,site=www.itmedia.co.jp
+$boost=2,site=japan.cnet.com
 
 ! Teck blogs
-/articles^$boost=3,site=dev.classmethod.jp
-/entry^$boost=3,site=techlife.cookpad.com
-/blog^$boost=3,site=engineering.mercari.com
-/entry^$boost=3,site=techblog.yahoo.co.jp
-/blog^$boost=3,site=engineering.dena.com
-/articles^$boost=3,site=inside.dmm.com
+$boost=3,site=dev.classmethod.jp
+$boost=3,site=techlife.cookpad.com
+$boost=3,site=engineering.mercari.com
+$boost=3,site=techblog.yahoo.co.jp
+$boost=3,site=engineering.dena.com
+$boost=3,site=inside.dmm.com
 $boost=3,site=knowledge.sakura.ad.jp
-/entry^$boost=3,site=tech.layerx.co.jp
+$boost=3,site=tech.layerx.co.jp
 $boost=3,site=www.tohoho-web.com
-/blog^$boost=1,site=kristoff.it
+$boost=1,site=kristoff.it
 $boost=1,site=stackoverflow.com
-/article^$boost=3,site=gihyo.jp
+$boost=3,site=gihyo.jp
 
 ! References
 $boost=3,site=www.python.jp
@@ -45,11 +45,14 @@ $boost=1,site=learn.microsoft.com
 
 ! Others
 $boost=2,site=github.io
-*.jp/*/blog.$boost=2
-*.jp/*/blog/$boost=2
-*.jp/*/entry/$boost=2
-*.jp/*/engineering.$boost=3
-*.jp/*/teck/$boost=3
+|https://*.jp/*$boost=1
+|https://*.jp/*/blog.$boost=2
+|https://*.jp/*/blog/$boost=2
+|https://*.jp/*/article.$boost=2
+|https://*.jp/*/entry/$boost=2
+|https://*.jp/*/engineering.$boost=3
+|https://*.jp/*/engineering/$boost=3
+|https://*.jp/*/teck/$boost=3
 ! ----------
 
 ! I'm not prefer the following...
